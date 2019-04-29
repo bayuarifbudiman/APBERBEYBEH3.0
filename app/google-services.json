@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "777015471693",
+    "firebase_url": "https://balanjo.firebaseio.com",
+    "project_id": "balanjo",
+    "storage_bucket": "balanjo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:777015471693:android:12bac67bbe7c6f0d",
+        "android_client_info": {
+          "package_name": "com.pramuditorh.balanjo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "777015471693-00o242g0efku5ml1jtbffkonqeqsnc66.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pramuditorh.balanjo",
+            "certificate_hash": "21234d2b453fc85e3915474bb31c597228f952f6"
+          }
+        },
+        {
+          "client_id": "777015471693-r23uldufhjm2fekh2c0kt7vi3ild89cg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-4Wx9kCM6iwp6SyHOs2iBP-qqK7s0K3I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "777015471693-r23uldufhjm2fekh2c0kt7vi3ild89cg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
