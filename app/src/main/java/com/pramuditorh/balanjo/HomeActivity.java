@@ -103,13 +103,23 @@ public class HomeActivity extends AppCompatActivity
                             }
 
                             @Override
-                            protected void onBindViewHolder(@NonNull ProductViewHolder holder, int position, @NonNull Products model)
+                            protected void onBindViewHolder(@NonNull ProductViewHolder holder, int position, @NonNull final Products model)
                             {
                                holder.txtProductName.setText(model.getPname());
                                 holder.txtProductDescription.setText(model.getDescription());
                                 holder.txtProductPrice.setText("Price = " +  "Rp" + model.getPrice());
                                 Picasso.get().load(model.getImage()).into(holder.imageView);
 
+
+                                holder.itemView.setOnClickListener(new View.OnClickListener() {
+                                    @Override
+                                    public void onClick(View view) {
+                                        Intent intent = new Intent(HomeActivity.this, ProductDetailsActivity.class);
+                                                intent.putExtra("pid", model.getClass());
+                                                startActivity(intent);
+
+                                    }
+                                });
 
                             }
                         };
