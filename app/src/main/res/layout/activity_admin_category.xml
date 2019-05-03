@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background"
     tools:context=".AdminCategoryActivity">
 
     <TextView
@@ -30,21 +31,21 @@
             android:id="@+id/food_imageView"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:src="@drawable/ic_food_service"
+            android:src="@drawable/dc24ed4b340d26f3b30210587ed1f43d"
             android:layout_marginRight="25dp"/>
 
         <ImageView
             android:id="@+id/prawn_imageView"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:src="@drawable/ic_prawn"
+            android:src="@drawable/Garlic-and-onion"
             android:layout_marginRight="25dp"/>
 
         <ImageView
             android:id="@+id/shellfish_imageView"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:src="@drawable/ic_shellfish"/>
+            android:src="@drawable/kisspng"/>
 
     </LinearLayout>
 
